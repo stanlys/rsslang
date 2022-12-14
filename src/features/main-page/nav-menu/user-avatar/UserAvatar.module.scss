@@ -1,0 +1,19 @@
+.userAvatar {
+  height: 2rem;
+  display: flex;
+  flex-direction: row;
+  column-gap: .4rem;
+  color: white;
+
+  svg {
+    fill: rgba($color: white, $alpha: 1.0);
+    transition: 0.15s ease-in-out;
+  }
+
+  &:hover {
+    svg {
+      fill: rgba($color: white, $alpha: 0.75);
+      transition: 0.15s ease-in-out;
+    }
+  }
+}

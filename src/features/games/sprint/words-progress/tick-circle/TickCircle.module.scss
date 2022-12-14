@@ -1,0 +1,10 @@
+.circle {
+  $diameter: 1.5rem;
+  height: $diameter;
+  width: $diameter;
+
+  .tick {
+    display: inline-block;
+  }
+}
+

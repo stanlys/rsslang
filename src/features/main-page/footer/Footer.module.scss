@@ -1,0 +1,16 @@
+.logoGitHub {
+  width: 2rem;
+  height: 2rem;
+  filter: invert(100%);
+}
+
+.logoRss {
+  width: 5rem;
+  filter: invert(100%);
+  transition: 0.15s ease-in-out;
+
+  &:hover {
+    filter: invert(85%);
+    transition: 0.15s ease-in-out;
+  }
+}

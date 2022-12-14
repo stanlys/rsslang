@@ -1,0 +1,9 @@
+.soundButton {
+  height: var(--diameter);
+  width: var(--diameter);
+  padding: calc(var(--diameter) * 0.2);
+}
+
+.soundIcon {
+  fill: white;
+}

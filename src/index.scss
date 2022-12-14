@@ -1,0 +1,11 @@
+@import "~bootstrap/scss/bootstrap";
+
+svg, img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.navbar-dark {
+  --bs-navbar-color: rgba(255, 255, 255, 1);
+}

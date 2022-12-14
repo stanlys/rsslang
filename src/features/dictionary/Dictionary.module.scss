@@ -1,0 +1,26 @@
+.dictionary {
+  padding: 1.5rem 0;
+
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: minmax(4rem, auto);
+
+  & h3 {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    padding: 0 2rem;
+  }
+}
+
+.ChaptersSelector {
+  grid-row: 2 / 3;
+  align-self: start;
+
+  position: sticky;
+  top: 1rem;
+}

@@ -1,0 +1,27 @@
+.loginForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 15px;
+
+  .avatar {
+    background-color: #1976d2;
+  }
+
+  .error {
+    background-color: red;
+  }
+
+  .input {
+    width: 40ch;
+    margin: .8rem;
+  }
+
+  .btnArea {
+    display: flex;
+    justify-content: center; 
+  }
+}
+
+

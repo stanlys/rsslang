@@ -1,0 +1,17 @@
+.circularProgress {
+  $size: 5rem;
+  width: $size;
+  height: $size;
+
+  .timeLeft {
+    $blue: #0d6efd;
+    $red: #dc3545;
+    $green: #198754;
+  
+    color: $green;
+  
+    &.finishing {
+      color: $red;
+    }
+  }
+}

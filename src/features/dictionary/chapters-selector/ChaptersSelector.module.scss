@@ -1,0 +1,148 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+
+.section {
+  width: 5.4rem;
+  padding: 1rem 0.1rem;
+
+  align-items: center;
+
+  box-shadow: 0px 0px 3px 1px rgba(34, 60, 80, 0.2);
+  border-radius: 3px;
+}
+
+.title {
+  color: #d63333;
+  font-weight: 600;
+  margin: 0;
+}
+
+.button {
+  font-size: 0.8rem;
+  background-color: transparent;
+  color: black;
+
+  &:focus {
+    box-shadow: none;
+  }
+
+  &:active:focus {
+    box-shadow: none;
+
+  }
+}
+
+.violetButton {
+  border-color: $indigo;
+
+  &:hover,
+  &:active,
+  &:focus {
+    border-color: $indigo;
+    background-color: $indigo;
+  }
+
+  &--current {
+    background-color: $indigo;
+  }
+}
+
+.blueButton {
+  border-color: $blue;
+
+  &:hover,
+  &:active,
+  &:focus {
+    border-color: $blue;
+    background-color: $blue;
+  }
+
+  &--current {
+    background-color: $blue;
+  }
+}
+
+.lightBlueButton {
+  border-color: $cyan;
+
+  &:hover,
+  &:active,
+  &:focus {
+    border-color: $cyan;
+    background-color: $cyan;
+  }
+
+  &--current {
+    background-color: $cyan;
+  }
+}
+
+.greenButton {
+  border-color: $teal;
+
+  &:hover,
+  &:active,
+  &:focus {
+    border-color: $teal;
+    background-color: $teal;
+  }
+
+  &--current {
+    background-color: $teal;
+  }
+}
+
+.yellowButton {
+  border-color: $yellow;
+
+  &:hover,
+  &:active,
+  &:focus {
+    border-color: $yellow;
+    background-color: $yellow;
+  }
+
+  &--current {
+    background-color: $yellow;
+  }
+}
+
+.orangeButton {
+  border-color: $orange;
+
+  &:hover,
+  &:active,
+  &:focus {
+    border-color: $orange;
+    background-color: $orange;
+  }
+
+  &--current {
+    background-color: $orange;
+  }
+}
+
+.redButton {
+  border-color: $red;
+
+  &:hover,
+  &:active,
+  &:focus {
+    border-color: $red;
+    background-color: $red;
+  }
+
+  &--current {
+    background-color: $red;
+  }
+}
+
+.violetButton--current,
+.blueButton--current,
+.lightBlueButton--current,
+.greenButton--current,
+.yellowButton--current,
+.orangeButton--current,
+.redButton--current {
+  color: white;
+}

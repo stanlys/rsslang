@@ -1,0 +1,29 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+
+$chapter-colors: (
+  "1": $indigo,
+  "2": $blue,
+  "3": $cyan,
+  "4": $teal,
+  "5": $yellow,
+  "6": $orange,
+  "7": $red,
+);
+
+@for $chapter-number from 1 through 7 {
+  .chapter#{$chapter-number} {
+    $chapter-color: map-get($map: $chapter-colors, $key: #{$chapter-number});
+    border-color: $chapter-color; 
+    color: black;
+
+    &:hover,
+    &:active,
+    &:focus {
+      border-color: $chapter-color;
+      background-color: $chapter-color;
+      color: white;
+    }
+  }
+}
+
